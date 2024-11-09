@@ -171,14 +171,19 @@ _In addition to buying complete applications or components , there are several o
 _Wordpress is a content management solution for blogs. Here are some requirements taken from the Wordpress codex. For each requirement, determine whether it concerns component syntax, component semantics, or component composition_.
 
 - Any text output by the 'Action' function will appear in the page source at the location where the action was invoked: **component semantics**
-- Use well-structured, error-free PHP and valid HTML: **component composition**
-- Actions are triggered by specific events in Wordpress, such as publishing a post, changing themes, or displaying an administration screen. Action is a custom PHP function defined in your plugin and hooked to some of these events: **component syntax**
+- Use well-structured, error-free PHP and valid HTML: **component syntax**
+- Actions are triggered by specific events in Wordpress, such as publishing a post, changing themes, or displaying an administration screen. Action is a custom PHP function defined in your plugin and hooked to some of these events: **Component composition**
 
 ### Automobile Components Quiz
 
 _What are some of the 3rd party component on which automobile manufacturers rely_?
 
 Tires, dashboards, and other parts.
+Battery
+Muffler
+Fluids (Oil, Windshield Washer, Transmission)
+Brakes
+
 
 ### Callbacks Quiz
 
@@ -206,3 +211,6 @@ _For each of the technologies below, determine whether each is proprietary techn
 - OpenGL: domain standard
 - Java: proprietary technology
 - JavaScript: domain standard
+
+Consider this sequence diagram describing a typical callback situation in which a component captures a user event and invokes a client method via a callback. The component is subject to corruption during which time period?
+- period from D to E
