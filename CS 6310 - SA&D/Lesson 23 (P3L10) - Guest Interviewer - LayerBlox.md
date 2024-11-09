@@ -32,3 +32,42 @@ Advice from Kurt:
 - Get good at data modeling the structure of data in a system on a conceptual level can pay dividends in the long run
 - Using an algebraic approach to think about software composition (e.g., what are their properties, when are they useful, and how to use them to inspire designs)
 - Knowing a body of related work when you start a new problem as in trying to relate your problem to a problem that has already been seen that you can heavily borrow from
+
+##Quiz
+
+Each refinement Is a generator that will generate a different way of implementing interfaces
+True
+
+An architect’s job may cover:
+All of above
+
+________ is quickly regenerated for some particular product or some particular set of products.
+A on-demand forecaster
+
+
+Based on the analysis to calculate demand, to forecast demand of products in the absence of any kind of promotional activity or any other kinds of events, special events that might cause spikes or troughs in demand. And that generates something called: 
+A baseline forecaster
+
+A baseline forecaster, a set of multipliers , a variant and an incremental forecaster are sub components that are used to create a batch.
+False
+
+A variance is based on customized requirements, and may not be used as often as a batch
+True
+
+A product line is a group of products that a company creates under a single brand. The products are similar and focus on the same market sector. 
+True
+
+LayerBlox is a software generator for generating different variants of products in the same product line.
+True
+
+Based on a separate set of algorithms that calculate incremental sales, an additional uplift from the base line when certain special events are in play(ex: a promotion) actually calculates: 
+An incremental forecaster
+
+An typical Application  of LayerBlox is Forecast Manager for sales, inventory, etc.
+True
+
+A refinement for incremental forecaster is parameterized by two different kinds of arguments, one is some component that implements _____.The other is some component that implements ______. And, when I apply this refinement to components of those suitable types, then I'll actually generate a new forecaster.
+forecast interface, multipliers interface
+
+
+
