@@ -179,7 +179,7 @@ To summarize, middleware is a collection of technologies for addressing non-func
 
 ### Voting Application Quiz 1
 
-_For the sample application, what data needs to be transmitted from the web browser to the server_?
+_For the sample application, which languages and protocols might have been involved in delivering the vote to the server_?
 
 Vote and question number
 
@@ -209,10 +209,10 @@ HTTP, SQL, AJAX
 
 _LAMP is a mild form of normative architecture. Look it up and match each of the elements with how they might apply to a voting application_.
 
-- L: Linux operating system
-- A: Apache web server
-- M: MySQL database engine
-- P: PHP embedded SQL in HTML
+- L: Operating system
+- A: Web server
+- M: Database engine
+- P: Embedded SQL in HTML
 
 ### Middleware Quiz
 
